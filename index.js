@@ -76,7 +76,7 @@ async function chatConversation() {
   newHumanChatbotContainer.innerHTML = `
       <span id='date'>${currentDate}</span>
       <div class='chatbot-inner'>
-          <img src='/assets/user-avatar.png' class='user-avatar avatar'/>
+          <img src='./assets/user-avatar.png' class='user-avatar avatar'/>
           <div class='speech speech-human'>${question}</div>
       </div>
   `;
@@ -112,7 +112,7 @@ async function chatConversation() {
       <span id='date'>${currentDate}</span>
       <div class='chatbot-inner'> 
           <div class='speech speech-ai'>${response}</div>
-          <img src='/assets/avatar.png' class='avatar'/>
+          <img src='./assets/avatar.png' class='avatar'/>
       </div>
   `
   chatbotConversation.appendChild(newAIChatbotContainer);
